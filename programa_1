@@ -4,7 +4,7 @@ x_int = int(x)
 print(not np.any([x%i == 0 for i in range(2, x)]))            #this test if x is prime
 
 
-#soma matplotlib.pyplot
+#some matplotlib.pyplot
 import matplatlib.pyplot as plt
 import numpy as np
 print(plt.plot([0,1,2],[0,1,4],"rd-"))
@@ -20,3 +20,13 @@ y1 = x**2.0
 y2 = x**1.5
 plt.loglog(x, y1, "bp-")
 plt.loglog(x, y2, "gs_")
+
+
+#more matplotlib.pyplot plus numpy
+import random
+import numpy
+import matplotlib.pyplot
+
+x = np.random.randint(1,7,(100, 10))
+Y = np.sum(x, axis=1)
+plt.hist(Y);
