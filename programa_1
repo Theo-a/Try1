@@ -24,9 +24,24 @@ plt.loglog(x, y2, "gs_")
 
 #more matplotlib.pyplot plus numpy
 import random
-import numpy
-import matplotlib.pyplot
+import numpy as np
+import matplotlib.pyplot as plt
 
 x = np.random.randint(1,7,(100, 10))
 Y = np.sum(x, axis=1)
 plt.hist(Y);
+
+
+ys = []
+for rep in range(100):
+    y = 0
+    for k in range(10):
+        x = random.choice([1,2,3,4,5,6])
+        y = y + x
+    ys.append(y)
+    
+plt.hist(ys);    
+  
+
+
+
