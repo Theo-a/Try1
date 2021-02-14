@@ -57,6 +57,11 @@ delta_x = np.random.normal(0, 1, (2,5))
 x = np.cumsum(delta_x, axis = 1)
 plt.plot(x[0], x[1], "ro-")
 
+delta_x = np.random.normal(0, 1, (2,5))
+x_0 = np.array([[0], [0])
+delta_x = np.random.normal(0, 1, (2,5))
+x = np.concatenate((x_0, np.cumsum(delta_x, axis=1)), axis=1)
+plt.plot(x[0], x[1], "ro-")
 
 
 
