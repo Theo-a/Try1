@@ -1,0 +1,25 @@
+import numpy as np
+import random
+
+def creat_board():
+  board_def = np.zeros((3,3), dtype=int)
+  return board_def
+  
+def place(board, player, position):
+  board = create_board()
+  board[position[0], posotion[1]] = player
+  return board
+print(place(1, 1, (0,0)))
+
+def possibilities(board):
+  cords = np.transpose(np.where(board==0))
+  return cords
+print(possibilities(board, 1, (0,0)))
+
+random_place(board, player):
+  zeros = possibilities(place(board, 2, (0,0)))
+  r_print = random.choice(zeros)
+  board = place(board, 1, (0,0))
+  board[r_point[0], r_point[1]] = player
+  return board
+print(random_place(board, 1))    
