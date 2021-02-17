@@ -98,3 +98,8 @@ for i in valores:
   </form>
 </main>
 #this page has a picture, somo unordered and ordered lists. Ans somo inputs and buttons.
+
+z = [c**2 for c in range(5)]
+print(z)
+# m**n, "m" exponencial "n", a partir de 0, btw 0^0 = 1
+
