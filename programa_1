@@ -63,6 +63,37 @@ delta_x = np.random.normal(0, 1, (2,5))
 x = np.concatenate((x_0, np.cumsum(delta_x, axis=1)), axis=1)
 plt.plot(x[0], x[1], "ro-")
 
+#Aal
+valores =[0.54772, 0.61644, 0.63246, 0.64031, 0.65574, 0.70711, 0.74162, 0.82462, 0.90554, 0.95394]
+for i in valores:
+    a = math.sqrt(i)
+    b = 1/(2*a)
+    c = b * 0.01
+    print(c)
 
+#mi html
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
 
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
 
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
