@@ -105,3 +105,4 @@ print(z)
 
 #creating lists of adds and evens
 O = [1,3,5,7,9]
+E = [0,2,4,6,8]
