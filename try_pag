@@ -35,6 +35,13 @@
         <div> ayuda a diferenciar secciones
         <form> formulario
     -->
+    
+    <form action="" method="">
+        <select name="" id="">
+            <option value="obo">obo</option>
+            <option value="uwu">uwu</option>
+        </select>
+    </form>
 
 </body>
 </html>
