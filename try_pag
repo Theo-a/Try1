@@ -21,6 +21,20 @@
         <li> Item 3</li>
         <li> Item 4</li>
          <a href="#"> Enlaceee Yutub </a>
+    <!-- 
+        <article> articulo de la pag
+        <aside> barra lateral
+        <figcaption> imag y text
+        <figure> imag en si 
+        <footer> pie de pag
+        <header> encabezado
+        <main> contenido principal
+        <nav> menu de navegacion
+        <section> seccion de la pag
+        <time> reloj 
+        <div> ayuda a diferenciar secciones
+        <form> formulario
+    -->
 
 </body>
 </html>
