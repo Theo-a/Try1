@@ -43,5 +43,16 @@
         </select>
     </form>
 
+    <form action="">
+        <textarea name="" id="" cols="66" rows="66"></textarea>
+        
+    </form>
+
+    <form enctype="multipart/form-data" action="">
+        <input type="file">
+    </form>
+
+    <video height="300" width="500" src="./holol.mp4" controls></video>
+    
 </body>
 </html>
