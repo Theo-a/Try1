@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/com.jpg">
+    <!-- la imagen deberia ser 64x64px con fondo transparente y .png-->
+    <title>Lool</title>
+</head>
+<body>
+    
+    <h1> Titulo de la página</h1>
+    <h2> Segundo titulo</h2>
+    <p> e </p>
+    <ul> 
+        <li> Item 1</li>
+        <li> Item 2</li>
+    </ul>
+    <ol>
+        <li> Item 3</li>
+        <li> Item 4</li>
+         <a href="#"> Enlaceee Yutub </a>
+
+</body>
+</html>
+
